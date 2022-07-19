@@ -1,0 +1,655 @@
+    body {
+        margin: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        top: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .InfoHead {
+        padding: 20px 13%;
+        padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: 19.34% 60.99%;
+        grid-column-gap: 19.67%;
+    }
+    
+    .LogoName {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #1DA1F2;
+    }
+    
+    .InfoClinic {
+        display: grid;
+        grid-template-columns: 32% 38% 22%;
+        grid-column-gap: 4%;
+    }
+    
+    .ItemHeadPhone {
+        display: grid;
+        grid-template-columns: 21.6% 75.9%;
+        grid-column-gap: 2.5%;
+    }
+    
+    .ItemHeadTime {
+        display: grid;
+        grid-template-columns: 13.5% 84%;
+        grid-column-gap: 2.5%;
+    }
+    
+    .ItemHeadLocation {
+        display: grid;
+        grid-template-columns: 23.8% 73.4%;
+        grid-column-gap: 2.5%;
+    }
+    
+    .ItemHeadFunct {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #1DA1F2;
+    }
+    
+    .ItemHeadData {
+        font-family: 'Montserrat', sans-serif;
+        color: #026cad;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .NavBlock {
+        width: 64%;
+        max-width: 64%;
+        background: #1DA1F2;
+        padding: 30px 18%;
+        display: grid;
+        grid-template-columns: 54.5% 14.4%;
+        grid-column-gap: 31.1%;
+    }
+    
+    .MenuNav {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .NavItem {
+        color: #FCFEFE;
+        text-decoration: none;
+        transition: all 300ms;
+        margin-left: 20px;
+    }
+    
+    .NavItem:hover {
+        color: #BFD2F8;
+    }
+    
+    .BtnRecording {
+        padding: 13px 35px;
+        background: #BFD2F8;
+        border-radius: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1DA1F2;
+        text-align: center;
+        transition: all 300ms;
+        cursor: pointer;
+    }
+    
+    .BtnRecording:hover {
+        background: #ffffff;
+    }
+    
+    .ProfileLink {
+        margin-left: 90%;
+        position: absolute;
+        top: 10px;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        color: #045483;
+        transition: all 300ms;
+    }
+    
+    .ProfileLink:hover {
+        color: #1DA1F2;
+    }
+    
+    .ProfileLink .ProfileImg {
+        width: 45px;
+    }
+    
+    .BannerBlock {
+        width: 86.4%;
+        background-image: url(img/bkg/888-min.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 750px;
+        padding-left: 13.6%;
+    }
+    
+    .FirstPhrase {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #026cad;
+        padding-top: 160px;
+    }
+    
+    .BasicPhrase {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        color: #1DA1F2;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .BtnOurServices {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1DA1F2;
+        background: #BFD2F8;
+        border-radius: 50px;
+        padding: 13px 35px;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+    
+    .BtnOurServices:hover {
+        background: #154097;
+        color: #e2eaf0;
+    }
+    
+    .AppointmentCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 330px;
+        background-color: #BFD2F8;
+        padding: 20px 25px;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: -45px;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+    
+    .AppointmentCard:hover {
+        background: #a2bdf3;
+        color: #e2eaf0;
+    }
+    
+    .CardTextBanner {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #1DA1F2;
+        padding-top: 15px;
+    }
+    
+    .PhrasePart {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #045483;
+        margin-top: 200px;
+    }
+    
+    .BigPhrase {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #1DA1F2;
+        margin-top: 50px;
+    }
+    
+    .SecondBkg {
+        width: 72%;
+        margin-top: 60px;
+    }
+    
+    .OurServicesPart {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .PhraseForService {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #045483;
+        margin-top: 30px;
+    }
+    
+    .OurServiceText {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #1DA1F2;
+        margin-top: 60px;
+    }
+    
+    .InfoServiceBlock {
+        margin-top: 60px;
+        display: grid;
+    }
+    
+    .InfoServiceBlock {
+        display: grid;
+        grid-template-columns: 15.8% 47.37% 32.6%;
+        grid-column-gap: 2%;
+    }
+    
+    .MenuService {
+        width: 100%;
+    }
+    
+    .ServiceItemInfo {
+        background-color: #FCFEFE;
+        width: 100%;
+        padding: 30px 0px;
+        transition: all 300ms;
+    }
+    
+    .ServiceItemInfo:hover {
+        background-color: #1DA1F2;
+    }
+    
+    .ServiceItemInfo:hover .ServiceItemName {
+        color: #FCFEFE;
+    }
+    
+    .ServiceItemName {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #212124;
+        transition: all 300ms;
+    }
+    
+    .PhraseDescriptName {
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 30px;
+        color: #000000;
+        margin-top: 30px;
+    }
+    
+    .ListAdvantages {
+        margin-top: 30px;
+        text-align: left;
+    }
+    
+    .ListAdvantages ul {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #000000;
+        list-style: none;
+    }
+    
+    ul li::before {
+        color: #154097;
+        font-weight: bold;
+        content: "\2022";
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        margin-top: 15px;
+    }
+    
+    .DescrpWayService {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #212124;
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    .ContactPart {
+        margin-top: 150px;
+    }
+    
+    .ContactPhraseName {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #045483;
+    }
+    
+    .ContactFormBlock {
+        width: 100%;
+        background-image: url(img/bkg/ContactFormBkg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 47% 51%;
+        grid-column-gap: 2%;
+        width: 70%;
+        padding: 75px 15%;
+    }
+    
+    .ContactFormText {
+        margin-top: 140px;
+        padding: 50px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.65);
+    }
+    
+    .ContactTextCapital {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 37px;
+        color: #045483;
+    }
+    
+    .ContactMessageText {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+        margin-top: 50px;
+    }
+    
+    .ContactForm {
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.65);
+        border-radius: 15px;
+        padding-bottom: 120px;
+    }
+    
+    .FormInputBlock {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-column-gap: 4%;
+        grid-template-rows: 60px 60px 60px;
+        grid-row-gap: 15px;
+    }
+    
+    .FormInputBlock label {
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .FormInputBlock input {
+        padding: .2em .3em;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #bdbdbd;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    
+    .FormInputBlock input:active,
+     :hover,
+     :focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+    
+    .FormInputBlock input:focus {
+        box-shadow: 10px 10px 34px 25px rgba(103, 211, 255, 0.79);
+        -webkit-box-shadow: 10px 10px 34px 25px rgba(103, 211, 255, 0.79);
+        -moz-box-shadow: 10px 10px 34px 25px rgba(103, 211, 255, 0.79);
+    }
+    
+    #sendBtn {
+        padding: 5px 20px;
+        background-color: #026cad;
+        color: #e2eaf0;
+        border-radius: 5px;
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 80px;
+        text-align: center;
+        margin-left: 35%;
+    }
+    
+    .TeamPart {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 150px;
+    }
+    
+    .TeamPhrase {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #045483;
+    }
+    
+    .OurTeamName {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #1DA1F2;
+        margin-top: 60px;
+    }
+    
+    .LineUp {
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-column-gap: 2%;
+        margin-top: 60px;
+    }
+    
+    .LineUpItem .OurSpecItem {
+        width: 100%;
+        height: 330px;
+        border-radius: 15px;
+    }
+    
+    .SpecNum1 {
+        background-image: url(img/pictures/TeamItem1.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .SpecNum2 {
+        background-image: url(img/pictures/TeamItem2.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .SpecNum3 {
+        background-image: url(img/pictures/TeamItem3.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .ProfName {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #1DA1F2;
+        text-align: center;
+        background-color: #BFD2F8;
+        padding-bottom: 50px;
+    }
+    
+    .ProfName .NameSpec {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-transform: capitalize;
+        padding-top: 30px;
+    }
+    
+    .LinkSocialMedia {
+        width: 40px;
+    }
+    
+    .LinkSocialMedia img {
+        width: 40px;
+    }
+    
+    .LocationPart {
+        margin-top: 150px;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+    
+    .TextLocation {
+        text-align: center;
+        font-size: 31px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: #026cad;
+    }
+    
+    iframe {
+        margin-top: 60px;
+    }
+    
+    footer {
+        background: #1DA1F2;
+        width: 70%;
+        padding: 150px 15%;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .LogoFooter {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    
+    .ContactInfo {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #fff;
+    }
+    
+    .NameContactInfo {
+        font-size: 22px;
+    }
+    
+    .ContactTextPart {
+        margin-top: 60px;
+    }
+    
+    @media screen and (max-width: 1862px) {
+        .ContactFormBlock {
+            width: 80%;
+            padding: 75px 10%;
+        }
+        .LineUp .OurSpecItem {
+            height: 300px;
+        }
+    }
+    
+    @media screen and (max-width: 1683px) {
+        .LineUp .OurSpecItem {
+            height: 275px;
+        }
+    }
+    
+    @media screen and (max-width: 1536px) {
+        .NavBlock {
+            width: 70%;
+            max-width: 70%;
+            padding: 30px 15%;
+        }
+        .LineUp .OurSpecItem {
+            height: 250px;
+        }
+    }
+    
+    @media screen and (max-width: 1389px) {
+        .NavBlock {
+            width: 76%;
+            max-width: 76%;
+            padding: 30px 12%;
+        }
+        .ContactFormBlock {
+            width: 86%;
+            padding: 75px 7%;
+        }
+        .LineUp .OurSpecItem {
+            height: 225px;
+        }
+        footer {
+            width: 74%;
+            padding: 80px 13%;
+        }
+    }

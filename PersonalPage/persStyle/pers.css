@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.InfoHead {
+    padding: 20px 13%;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 19.34% 60.99%;
+    grid-column-gap: 19.67%;
+}
+
+.LogoName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #1DA1F2;
+}
+
+.InfoClinic {
+    display: grid;
+    grid-template-columns: 32% 38% 22%;
+    grid-column-gap: 4%;
+}
+
+.ItemHeadPhone {
+    display: grid;
+    grid-template-columns: 21.6% 75.9%;
+    grid-column-gap: 2.5%;
+}
+
+.ItemHeadTime {
+    display: grid;
+    grid-template-columns: 13.5% 84%;
+    grid-column-gap: 2.5%;
+}
+
+.ItemHeadLocation {
+    display: grid;
+    grid-template-columns: 23.8% 73.4%;
+    grid-column-gap: 2.5%;
+}
+
+.ItemHeadFunct {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1DA1F2;
+}
+
+.ItemHeadData {
+    font-family: 'Montserrat', sans-serif;
+    color: #026cad;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
